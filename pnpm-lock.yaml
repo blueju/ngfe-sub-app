@@ -7,6 +7,7 @@ specifiers:
   '@umijs/preset-react': 1.x
   '@umijs/test': ^3.5.17
   bpmn-js: ^8.8.3
+  core-js-bundle: ^3.20.2
   lint-staged: ^10.0.7
   prettier: ^2.2.0
   react: 17.x
@@ -19,6 +20,7 @@ dependencies:
   '@ant-design/pro-layout': 6.31.7_react-dom@17.0.2+react@17.0.2
   '@umijs/preset-react': 1.8.30_ad45d5d5be628189591785affb1541ca
   bpmn-js: 8.8.3
+  core-js-bundle: 3.20.2
   umi: 3.5.20
 
 devDependencies:
@@ -2311,6 +2313,11 @@ packages:
     resolution: {integrity: sha1-EVqhqZmP+rYZb5MHatbaO5E2Yq4=, tarball: copy-to-clipboard/download/copy-to-clipboard-3.3.1.tgz}
     dependencies:
       toggle-selection: 1.0.6
+    dev: false
+
+  /core-js-bundle/3.20.2:
+    resolution: {integrity: sha512-cziDW6TghkYfMfMQE4sin0Zic+ZKDHnIcUwRA3YSP8z3YC8dTdyzvMD83fgg2ADDPvleasPB7R7HSj/RUCV6Yw==, tarball: core-js-bundle/download/core-js-bundle-3.20.2.tgz}
+    requiresBuild: true
     dev: false
 
   /core-js-pure/3.20.1:
